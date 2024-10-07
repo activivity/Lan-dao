@@ -1,0 +1,120 @@
+/* 主窗口背景 */
+QWidget {
+    background-color: #f5f5f5;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #333;
+    border-radius: 8px;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: 1px solid #4cae4c;
+    transition: background-color 0.3s ease;
+}
+
+QPushButton:hover {
+    background-color: #4cae4c;
+}
+
+QPushButton:pressed {
+    background-color: #3e8e41;
+}
+
+/* 标签样式 */
+QLabel {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* 文本输入框 */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+QLineEdit:focus {
+    border-color: #3a82e4;
+    background-color: #f0f8ff;
+}
+
+/* 下拉框 */
+QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: white;
+}
+
+QComboBox:hover {
+    border-color: #3a82e4;
+}
+
+/* 列表控件样式 */
+QListWidget {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+QListWidget::item {
+    padding: 10px;
+}
+
+QListWidget::item:selected {
+    background-color: #0078d7;
+    color: white;
+}
+
+QListWidget::item:hover {
+    background-color: #e0e0e0;
+}
+
+/* 滚动条样式 */
+QScrollBar:vertical {
+    width: 8px;
+    background: #ddd;
+    margin: 0px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+QScrollBar::handle:vertical {
+    width: 8px;
+    background: #999;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #777;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 9px;
+    width: 8px;
+    border: none;
+}
+
+/* 状态栏 */
+QTextEdit {
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* 窗口美化 */
+QMainWindow {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
